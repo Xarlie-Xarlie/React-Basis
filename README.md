@@ -1,23 +1,18 @@
 # First React App
 
-## Funcionalidades da aplicação
+<img src="./photo.jpg" alt="alt text" width="49%"/>
+<img src="./image.png" alt="alt text" width="50%"/>
 
-Agora que você já está com o template clonado, e pronto para continuar, você deve abrir o arquivo **src/App.js**, e completar onde não possui código com o código para atingir os objetivos de cada funcionalidade.
+## Application Funcionalities
 
-- **`Listar os repositórios da sua API`**: Deve ser capaz de criar uma lista com o campo **title** de todos os repositórios que estão cadastrados na sua API.
+- **`List your API repositories`**: You must be able to create a list with the **title** field of all repositories that are registered in your API.
 
-- **`Adicionar um repositório a sua API`**: Deve ser capaz de adicionar um novo item na sua API através de um botão com o texto **Adicionar** e, após a criação, deve ser capaz de exibir o nome dele após o cadastro.
+- **`Add a repository to your API`**: It must be able to add a new item to its API through a button with the text **Add** and, after creation, it must be able to display the name after registration.
 
-- **`Remover um repositório da sua API`**: Para cada item da sua lista, deve possuir um botão com o texto **Remover** que, ao clicar, irá chamar uma função para remover esse item da lista do seu frontend e da sua API.
+- **`Remove a repository from your API`**: For each item in your list, there must be a button with the text **Remove** which, when clicked, will call a function to remove that item from your list. frontend and its API.
 
-## Específicação dos testes
+## Tests Especifications
 
-Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
+- **`should be able to add new repository`**: In order for this test to pass, your application must allow a repository to be added to your backend and listed in your frontend within a `LI`.
 
-Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dê uma olhada em **[nosso FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).**
-
-Para esse desafio temos os seguintes testes:
-
-- **`should be able to add new repository`**: Para que esse teste passe, sua aplicação deve permitir que um repositório seja adicionado ao seu backend e listado no seu frontend dentro de uma `LI`.
-
-- **`should be able to remove repository`**: Para que esse teste passe, sua aplicação deve permitir que ao clicar no botão de remover que vai estar dentro da `LI` do repositório adicionado, o item seja removido da listagem.
+- **`should be able to remove repository`**: For this test to pass, your application must allow that when you click on the remove button that will be inside the `LI` of the added repository, the item is removed from the listing.

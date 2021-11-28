@@ -58,9 +58,9 @@ function App() {
       <ul data-testid="repository-list">
         {repositories.map(repository =>
           <li key={repository.id}>
-            {repository.title}
+            {repository.title} 
             <button onClick={() => handleRemoveRepository(repository.id)}>
-              Remover
+              Remove
             </button>
           </li>
 
@@ -74,7 +74,7 @@ function App() {
         <input name="techs" type="text" placeholder="techs"/>
       </form>
       */}
-      <button onClick={handleAddRepository}>Adicionar</button>
+      <button onClick={handleAddRepository}>Add</button>
     </div>
   );
 }
